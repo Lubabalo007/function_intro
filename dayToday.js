@@ -1,7 +1,8 @@
-const assert = require ('assert')
-var dayToday = function (today){
-var result = today.endsWith('day')
-console.log(result);
-return result;
-};
-assert.equal(dayToday('Friday'),true);
+function dayToday(){
+var today = new Date();
+var weekDays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+return weekDays[today.getDay()];
+
+
+}
+console.log(dayToday());
