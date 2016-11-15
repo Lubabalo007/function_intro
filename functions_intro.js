@@ -10,4 +10,3 @@ var printDetails = function(value){
 printDetails('this is a string');
 printDetails(100);
 printDetails(false);
-S
