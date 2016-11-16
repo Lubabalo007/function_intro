@@ -1,2 +1,7 @@
-var isTuesday = false
-console.log (isTuesday);
+
+const assert = require('assert');
+var isTuesday = function (){
+return true;
+}
+isTuesday ()
+assert.equal(isTuesday(),true);
